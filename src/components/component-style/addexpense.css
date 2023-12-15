@@ -1,0 +1,26 @@
+.addexpense-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #1c4532;
+    font-weight: 600;
+}
+.addexpense-form-headp {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px #1c4532 solid;
+}
+
+.addexpense-form-amount {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.addexpense-form-submitbtn {
+    background-color: #1c4532;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}

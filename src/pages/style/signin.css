@@ -1,0 +1,118 @@
+.SignIn {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+.SignIn > h1 {
+    position: absolute;
+    margin-left: 2%;
+    color: #1c4532;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.signin-form {
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    gap: 30px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #1c4532;
+}
+
+.signin-inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signin-inputs > label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 14px;
+}
+.signin-inputs > label > input {
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f7fafc;
+    border: 1px solid #4a5568;
+    padding-left: 10px;
+}
+
+.signin-rememberMe {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.signin-rememberMe > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.signin-button {
+    background-color: #1c4532;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*  */
+
+.signin-main {
+    width: 50%;
+    background-color: #1c4532;
+    color: white;
+}
+
+.signin-main > header {
+    display: flex;
+    justify-content: center;
+}
+
+.signin-main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signin-main-middle-img {
+    width: 80%;
+    height: 40%;
+    color: #1c4532;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+.signin-main-middle-img > img {
+    width: 230px;
+    height: 150px;
+}
+.signin-main-middle-btn {
+    background-color: #1c4532;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.signin-main-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

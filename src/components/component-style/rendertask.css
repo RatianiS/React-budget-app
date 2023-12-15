@@ -1,0 +1,32 @@
+.income {
+    margin-left: 50px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(149, 225, 149);
+    font-weight: 600;
+}
+.expense {
+    margin-left: 50px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(220, 170, 170);
+    font-weight: 600;
+}
+
+.deletebtn {
+    padding: 3px 10px;
+    background-color: rgb(185, 97, 97);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.editbtn {
+    padding: 3px 10px;
+    background-color: rgb(173, 186, 87);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}

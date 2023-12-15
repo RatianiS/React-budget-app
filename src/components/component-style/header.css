@@ -1,0 +1,38 @@
+.header {
+    margin-bottom: 10px;
+    background-color: rgb(204, 237, 203);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-h1 {
+    font-weight: 800;
+    background-color: #1c4532;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.header-h1:hover {
+    opacity: 0.9;
+}
+
+.header-div {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn {
+    font-weight: 800;
+    background-color: #1c4532;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.header-btn:hover {
+    opacity: 0.9;
+}
